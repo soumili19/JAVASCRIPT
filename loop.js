@@ -9,19 +9,19 @@ for(let i=0;i<=5;i++)
 {
   console.log("i = ",i)
 }
-//for(let i=1;i>=0;i++)//infinte loop//
-//{
- // console.log("i =",i);
-//}
-//while(i<=5)//do loop//
-//{
-//  console.log("i =",i);
- // i++;
-//}
-//do{
- // console.log("i=",i);//do while loop//
-  //i++;
-//}while(i<=5);
+for(let i=1;i>=0;i++)//infinte loop//
+{
+ console.log("i =",i);
+}
+while(i<=5)//do loop//
+{
+  console.log("i =",i);
+  i++;
+}
+do{
+  console.log("i=",i);//do while loop//
+  i++;
+}while(i<=5);
 //let str="javascript"//for-of-loop//
 //for(let i of strVar)
 //{
