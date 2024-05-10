@@ -9,33 +9,38 @@ for(let i=0;i<=5;i++)
 {
   console.log("i = ",i)
 }
-for(let i=1;i>=0;i++)//infinte loop//
+//infinte loop//
+for(let i=1;i>=0;i++)
 {
  console.log("i =",i);
 }
-while(i<=5)//do loop//
+//do loop//
+while(i<=5)
 {
   console.log("i =",i);
   i++;
 }
+//do while loop//
 do{
-  console.log("i=",i);//do while loop//
+  console.log("i=",i);
   i++;
 }while(i<=5);
-//let str="javascript"//for-of-loop//
-//for(let i of strVar)
-//{
-  //console.log("i=",i);
-  //size++;
-//}
-//console.log("string size =",size);//for-in-loop//
+//for-of-loop//
+let str="javascript"
+for(let i of strVar)
+{
+  console.log("i=",i);
+  size++;
+}
+//for-in-loop//
+console.log("string size =",size);
 let student={
   name:"Soumili Dey",
   age:20,
   cgpa:7.5,
   isPass:true,
 };
-//for(let key in student){
+for(let key in student){
  // console.log("i =",i);
   //console.log("key =",key,"value",student[key]);
 //}
