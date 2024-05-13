@@ -1,10 +1,11 @@
-/*let num =prompt("Enter a number");
+let num =prompt("Enter a number");
 if(num%5===0){
     console.log(num,"multiple is 5");
 }
 else{
     console.log(num,"multiple is not 5");
-}*/
+}
+//checking the grade//
 let num = prompt("Enter your score");
 if(num>=80&&num<=100){
     console.log(num,"Grade is A");
