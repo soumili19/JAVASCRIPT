@@ -6,7 +6,7 @@ if(num%5===0){
 else{
     console.log(num,"multiple is not 5");
 }
-//checking the grade//
+//checking the grade of the student//
 let num = prompt("Enter your score");
 if(num>=80&&num<=100){
     console.log(num,"Grade is A");
