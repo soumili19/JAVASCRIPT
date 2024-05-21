@@ -8,7 +8,7 @@ let obj={
     price:10,
 };
 console.log(specialString);
-//object//
+
 let output=`the cost of ${obj.item}is${obj.price}rupees`;
 console.log(output);
 console.log("Apna\nCollege");
